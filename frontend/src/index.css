@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* index.css or global.css */
+.glass-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255,255,255,0.4);
+  outline: none;
+  padding: 8px 4px;
+  color: white;
+}
+
+.glass-input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.glass-input:focus {
+  border-bottom-color: #facc15; /* yellow focus */
+}
+
